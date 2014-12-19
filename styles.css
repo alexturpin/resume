@@ -1,0 +1,132 @@
+/* Design inspired by http://jugalm.com/resume/ */
+
+body {
+	width: 960px;
+	margin: 60px auto;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	color: #0F4D92;
+	font-weight: 400;
+	font-family: 'Merriweather', serif;
+	float: left;
+	margin: 0;
+}
+
+h2 {
+	float: left;
+	padding-left: 20px;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #0F4D92;
+	margin: 0;
+}
+
+h2 span {
+	font-weight: 900;
+}
+
+.content {
+	float: right;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 300;
+	width: 80%;
+}
+
+a, a:visited {
+	color: #0F4D92;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#contact {
+	float: right;
+}
+
+section {
+	border-bottom: 1px solid #ddd;
+	padding: 20px;
+}
+
+section:last-child {
+	border-bottom: none;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.skills {
+	width: 30%;
+	list-style-type: none;
+	float: left;
+	padding-left: 0;
+	margin-right: 22px;
+	margin-top: 0;
+}
+
+.skills li {
+	margin-top: 8px;
+	font-size: 16px;
+}
+
+#education p, #experience p {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#education .details {
+	margin-bottom: 40px;
+}
+
+.details {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #aaa;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+	margin: 0;
+	font-size: 18px;
+	margin-top: 6px;
+	font-weight: 700;
+	font-family: 'Merriweather', serif;
+}
+
+h3 span {
+	font-style: italic;
+}
+
+.left {
+	float :left;
+}
+
+.right {
+	float :right;
+}
+
+#experience ul {
+	margin-bottom: 40px;
+}
+
+ul {
+	padding-left: 20px;
+	font-size: 15px;
+	color: #333;
+}
+
+p {
+	margin-top: 8px;
+}
