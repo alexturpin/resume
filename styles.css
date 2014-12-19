@@ -130,3 +130,7 @@ ul {
 p {
 	margin-top: 8px;
 }
+
+.margin-bottom-small {
+	margin-bottom: 15px !important;
+}
