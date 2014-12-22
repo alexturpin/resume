@@ -1,5 +1,12 @@
 /* Design inspired by http://jugalm.com/resume/ */
 
+@media print {
+	body {
+		margin: 0 auto !important;
+	}
+}
+
+
 body {
 	width: 960px;
 	margin: 60px auto;
@@ -33,7 +40,7 @@ h2 span {
 	float: right;
 	font-family: 'Merriweather Sans', sans-serif;
 	font-weight: 300;
-	width: 80%;
+	width: 75%;
 }
 
 a, a:visited {
